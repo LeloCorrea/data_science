@@ -6,7 +6,9 @@ from sklearn.ensemble import RandomForestRegressor
 # função para carregar o dataset
 @st.cache
 def get_data():
-    return pd.read_csv("/home/anderson/Área de Trabalho/Desafios/Data_Science/aula03/aula03/data.csv")
+    return pd.read_csv("data.csv")
+#return pd.read_csv("/home/anderson/Área de Trabalho/Desafios/Data_Science/aula03/aula03/data.csv")
+
 
 
 # função para treinar o modelo
