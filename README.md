@@ -32,3 +32,8 @@ Comando:
         Python: Select Linter
 2 - Através do terminal linux
         sudo pip3 install pylint
+
+Aula 03
+Instalar a biblioteca para criar aplicações web com código python.
+
+pip install streamlit

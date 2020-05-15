@@ -36,7 +36,7 @@ st.subheader("Selecionando apenas um pequeno conjunto de atributos")
 # atributos para serem exibidos por padrão
 defaultcols = ["RM","PTRATIO","LSTAT","MEDV"]
 
-# defindo atributos a partir do multiselect
+# defindo atributos a partir do multiselect (widget)
 cols = st.multiselect("Atributos", data.columns.tolist(), default=defaultcols)
 
 # exibindo os top 10 registro do dataframe
