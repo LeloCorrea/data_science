@@ -21,6 +21,12 @@ import numpy as np
 # Semana de Ciência de Dados
 # Minerando Dados
 
+#Dentro do google Colab
+#Primeiro passo é montar o drive:
+'''from google.colab import drive
+drive.mount('/content/drive')'''
+
+#Segundo passo importar as bibliotecas básicas.
 # Conhecendo a base de dados
 #Importando como bibliotecas básicas:
 import pandas as pd
@@ -30,13 +36,16 @@ import matplotlib.pyplot as plt
 
 #Carregando a base de dados:
 
+#Terceiro passo:
 #Carrega a dataset de boston
 from sklearn.datasets import load_boston
 boston = load_boston()
 
+#Quarto passo:
 #Descrição do dataset
 print (boston.DESCR)
 
+#Quinto passo:
 #cria um dataframe pandas
 data = pd.DataFrame(boston.data, columns=boston.feature_names)
 
